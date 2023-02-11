@@ -102,6 +102,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                   //functions
                                 } else {
                                   //error
+                                  // ignore: use_build_context_synchronously
                                   Utils().showSnackBar(
                                       context: context, content: output);
                                 }

@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:clone_amazon/models/product_model.dart';
 import 'package:clone_amazon/models/review_model.dart';
 import 'package:clone_amazon/providers/user_details_provider.dart';

@@ -67,6 +67,7 @@ class _CartScreenState extends State<CartScreen> {
                                                 context,
                                                 listen: false)
                                             .userDetails);
+                                // ignore: use_build_context_synchronously
                                 Utils().showSnackBar(
                                     context: context, content: "Done");
                               },

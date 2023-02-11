@@ -127,6 +127,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                                 const SignInScreen()));
                                   } else {
                                     //error
+                                    // ignore: use_build_context_synchronously
                                     Utils().showSnackBar(
                                         context: context, content: output);
                                   }
